@@ -1,0 +1,200 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-image: url('../img/body_bg.png');
+}
+
+.top_rhs{
+    color: #fff;
+    margin-top: 12px; 
+    text-align: right;   
+}
+
+.logo h1{
+    color: #fff;
+    font-size: 2em;
+    margin-top: 24px;
+}
+
+
+
+.top_mid{
+   color: #fff;
+    margin-top: 64px; 
+}
+
+.top_mid a:link {color: #fff; text-decoration: underline; margin-left: 12px; margin-right: 12px;}
+.top_mid a:active {color: #fff; text-decoration: underline; margin-left: 12px; margin-right: 12px;}
+.top_mid a:visited {color: #fff; text-decoration: underline; margin-left: 12px; margin-right: 12px;}
+.top_mid a:hover {color: #fff; text-decoration: underline; margin-left: 12px; margin-right: 12px;}
+
+#btm_nav{
+    margin:32px 0;
+    text-align: center;;
+}
+
+#btm_nav a:link { margin-left: 12px; margin-right: 12px;}
+#btm_nav a:active { margin-left: 12px; margin-right: 12px;}
+#btm_nav a:visited { margin-left: 12px; margin-right: 12px;}
+#btm_nav a:hover { margin-left: 12px; margin-right: 12px;}
+
+.logo a:link {color: #fff; text-decoration: none;}
+.logo a:active {color: #fff; text-decoration: none;}
+.logo a:visited {color: #fff; text-decoration: none;}
+.logo a:hover {color: #fff; text-decoration: none;}
+
+.roundcorner{
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.slider_top_space{
+    padding-top: 15px;
+}
+
+.bctop{
+    height: 100px;
+    background-color: #000;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+#content_wrapper {
+    padding-top: 9px;
+     min-height: 650px;
+}
+.cke_chrome{
+    border-radius: 5px !important;
+    padding: 1px !important;
+}
+
+.shape{ 
+    border-style: solid; border-width: 0 70px 40px 0; float:right; height: 0px; width: 0px;
+    -ms-transform:rotate(360deg); /* IE 9 */
+    -o-transform: rotate(360deg);  /* Opera 10.5 */
+    -webkit-transform:rotate(360deg); /* Safari and Chrome */
+    transform:rotate(360deg);
+}
+.offer{
+    background:#fff; border:1px solid #ddd; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); margin: 15px 0; overflow:hidden;
+}
+.offer-radius{
+    border-radius:7px;
+}
+.offer-danger { border-color: #d9534f; }
+.offer-danger .shape{
+    border-color: transparent #d9534f transparent transparent;
+    border-color: rgba(255,255,255,0) #d9534f rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-success {    border-color: #5cb85c; }
+.offer-success .shape{
+    border-color: transparent #5cb85c transparent transparent;
+    border-color: rgba(255,255,255,0) #5cb85c rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-default {    border-color: #999999; }
+.offer-default .shape{
+    border-color: transparent #999999 transparent transparent;
+    border-color: rgba(255,255,255,0) #999999 rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-primary {    border-color: #428bca; }
+.offer-primary .shape{
+    border-color: transparent #428bca transparent transparent;
+    border-color: rgba(255,255,255,0) #428bca rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-info {   border-color: #5bc0de; }
+.offer-info .shape{
+    border-color: transparent #5bc0de transparent transparent;
+    border-color: rgba(255,255,255,0) #5bc0de rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-warning {    border-color: #f0ad4e; }
+.offer-warning .shape{
+    border-color: transparent #f0ad4e transparent transparent;
+    border-color: rgba(255,255,255,0) #f0ad4e rgba(255,255,255,0) rgba(255,255,255,0);
+}
+
+.shape-text{
+    color:#fff; font-size:12px; font-weight:bold; position:relative; right:-40px; top:2px; white-space: nowrap;
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -o-transform: rotate(360deg);  /* Opera 10.5 */
+    -webkit-transform:rotate(30deg); /* Safari and Chrome */
+    transform:rotate(30deg);
+}   
+.offer-content{
+    padding:0 20px 10px;
+}
+.panel-danger{
+    border-color: #d9534f;
+}
+
+.panel-danger> .panel-heading {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+.panel-warning{
+    border-color: #f0ad4e;
+}
+
+.panel-warning> .panel-heading {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.panel-success{
+    border-color: #5cb85c;
+}
+
+.panel-success> .panel-heading {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
